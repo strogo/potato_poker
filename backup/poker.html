@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Potato Poker</title>
+    <link rel="stylesheet" href="pokerRoom.css">
+    <script src="pokerRoom2.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font: 13px Helvetica, Arial; }
+      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 30%; }
+      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+      #messages { list-style-type: none; margin: 0; padding: 0; width: 30%}
+      #messages li { padding: 5px 10px; }
+      #messages li:nth-child(odd) { background: #eee; }
+    </style>
+</head>
+<body>
+<div id="test" style="position: relative; z-index: 999;"><p>game started!</p></div>
+
+<div id="console">
+	<ul id="messages"></ul>
+    <form action="">
+        <input id="m" autocomplete="off" /><button>Send</button>
+    </form>
+</div>
+
+<div id="circle" align="right">
+    <div id="community_cards">
+    </div>
+    <div id="pot">
+
+    </div>
+</div>
+<div id="topmenu">
+    <a href="/lobby" onclick="leaveRoom();">LEAVE ROOM</a>
+</div>
+
+<button type="button" onclick="sendCommand('raise')">Raise</button>
+<button type="button" onclick="sendCommand('bet')">Bet</button>
+<button type="button" onclick="sendCommand('call')">Call</button>
+<button type="button" id="checkButton">Check</button>
+<button type="button" onclick="sendCommand('fold')">Fold</button>
+<button type="button" onclick="sendCommand('quit')">Quit</button>
+
+
+	<script>
+	  var socket = io();
+	  $('form').submit(function(){
+		socket.emit('chat message', $('#m').val());
+		$('#m').val('');
+		return false;
+	  });
+	  socket.on('chat message', function(msg){
+		$('#messages').append($('<li>').text(msg));
+	  });
+
+	  $('#checkButton').click( function() {
+	    socket.emit('command', 'check');
+	    });
+	</script>
+
+</body>
+</html>

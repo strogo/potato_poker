@@ -1,0 +1,49 @@
+
+
+div#chat {
+    bottom: 0;
+    width: 100%;
+    height: 37px;
+    margin: auto;
+    padding:0;
+}
+
+div#chat input {
+  width: 74%;
+  padding: 2.5%;
+}
+
+div#chat button {
+    width: 19%;
+    padding: 2.5%;
+    background: #205F77;
+    color: white;
+    border:none;
+}
+
+div#console {
+    width: 99%;
+    background: #ECF5EF;
+    overflow: auto;
+    overflow-y: scroll;
+    flex: 1;
+}
+
+ul#messages {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#messages li {
+    padding: 5px 5px;
+    color: black;
+}
+
+#messages li:nth-child(even) {
+    background: #F3F8F9;
+}
+
+#messages li:nth-child(odd) {
+    background: #D1E1E8;
+}

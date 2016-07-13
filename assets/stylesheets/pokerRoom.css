@@ -1,0 +1,217 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: .7em;
+}
+
+body {
+    background-color: #3C9D5F;
+    color: white;
+    font-family: Verdana;
+    overflow: hidden;
+}
+
+body a {
+    color: #FFFFFF;
+}
+
+.stylish {
+  font-family: 'Pacifico', cursive;
+}
+
+/* Buttons with design based on http://tympanus.net/Development/CreativeButtons/ */
+.button {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 10%;
+}
+
+.joinButton {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.nameInput {
+    color:white;
+    width: 44%;
+    padding: 0%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-size: inherit;
+}
+
+.commandButton {
+    width: 15%;
+    height: 100%;
+}
+
+.button:after {
+    position: absolute;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button:hover:enabled {
+    box-shadow: 0 4px #ab3c3c;
+    top: 2px;
+}
+
+.button:active:enabled {
+    box-shadow: 0 0 #ab3c3c;
+    top: 6px;
+}
+
+.button:disabled {
+    background: repeating-linear-gradient(
+            45deg,
+            #662630,
+            #662630 10px,
+            #B24253 10px,
+            #B24253 20px
+    );
+}
+
+#commands {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#consoleContainer {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 20%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    z-index: 3;
+}
+
+#cover {
+    z-index: 4;
+    background-color: #3C9D5F;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 2em;
+}
+
+#joinForm {
+    display: inline-block;
+    zoom: 1;
+    width: 33%;
+    height: 20%;
+    text-align: center;
+}
+
+#circle {
+    border-radius: 50%;
+}
+
+#topmenu {
+    right: 0px;
+    top: 0px;
+    width: 5%;
+    height: auto;
+    background-color: #0E6C31;
+    position: absolute;
+    padding: 5px;
+}
+
+#pot {
+    background-color: #218948;
+    text-align: center;
+    padding: 0;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 10%;
+}
+
+/* //TODO Remove
+#community_cards {
+    background-color: #000000;
+    border-radius: 5px;
+}
+*/
+
+.playerBox {
+    background-color: #0E6C31;
+    position: absolute;
+    overflow: hidden;
+}
+
+.cardBox {
+    position: relative;
+    float: left;
+    background-color: #0E6C31;
+    background-repeat: no-repeat;
+}
+
+.communityCardBox {
+    background-color: transparent;
+}
+
+
+ #tutorialcanvascards1 { 
+	display: block;
+    margin: 0 auto;
+	background-color:#3C9D5F;	
+ }
+ 
+ #tutorialcanvascards1:hover
+ {
+    background-color: black;
+}
+
+
+#tutorialcanvascards2 { 
+	display: block;
+    margin: 0 auto;
+	background-color: #3C9D5F;
+ }
+ 
+ #tutorialcanvascards2:hover
+ {
+     background-color: black;
+}
+
+
+
+#tutorialcanvas0 { 
+	display: block;
+    margin: 0 auto;
+ }

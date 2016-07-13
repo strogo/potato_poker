@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <title>Potato Poker</title>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href="assets/stylesheets/pokerRoom.css" rel="stylesheet">
+    <link href="assets/stylesheets/console.css" rel="stylesheet">
+    <link href="assets/stylesheets/slick.css" rel="stylesheet">
+    <link href="assets/stylesheets/slick-theme.css" rel="stylesheet">
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+</head>
+
+<body>
+
+<div id="cover">
+    <div id="joinForm">
+        <h1 class="welcomeMessage stylish">Welcome to <br>Potato Poker<br></h1>
+    <!--    <div class="intro-slider"> -->
+        <div>	
+<canvas id="tutorialcanvas0" width="400" height="90"></canvas>
+<canvas id="tutorialcanvascards1" canvas onclick="tutorialclick1()" width="400" height="100"></canvas>
+<canvas id="tutorialcanvascards2" canvas onclick="tutorialclick2()" width="400" height="100"></canvas>
+        	
+    <!--        <div class="intro-slide"><img src="assets/images/img_the_scream.jpg"></div>
+            <div class="intro-slide"><img src="assets/images/spinningpotato.gif"></div>
+            <div class="intro-slide"><img src="assets/images/img_the_scream.jpg"></div>
+            <div class="intro-slide"><img src="assets/images/spinningpotato.gif"></div>    -->
+        </div>
+        
+        
+        <p class="stylish">Yes, I understand how to play. My name is </p>
+	<form>
+        <input type="text" id="nameInput" class="nameInput stylish" onclick="this.value='';" value="Your name"><br><br>
+        <button type="submit" class="button joinButton" onClick="tryJoin($('#nameInput').val());">Join game</button></form>
+    </div>
+</div>
+
+<div id="consoleContainer">
+
+    <div id="console">
+        <ul id="messages">
+        </ul>
+    </div>
+    <div id="chat">
+        <form action="">
+            <input autocomplete="off" id="m"><button>Send</button>
+        </form>
+    </div>
+</div>
+
+<div id="circle" style="text-align: right">
+
+    <div id="community_cards"></div>
+    <div id="pot"></div>
+</div>
+
+<div id="topmenu">
+    <a href="/lobby" onclick="leaveRoom();">WHATS THIS BUTTON FOR</a>
+</div>
+
+<div id="commands">
+    <button class="button commandButton" onclick="command('raise')" type="button">Raise</button>
+    <button class="button commandButton" onclick="command('bet')" type="button">Bet</button>
+    <button class="button commandButton" onclick="command('call')" type="button">Call</button>
+    <button class="button commandButton" onclick="command('check')" type="button">Check</button>
+    <button class="button commandButton" onclick="command('fold')" type="button">Fold</button>
+    <button class="button commandButton" onclick="command('quit')" type="button">Quit</button>
+</div>
+</body>
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="assets/javascripts/slick.min.js"></script>
+<script src="assets/javascripts/consoleController.js"></script>
+<script src="assets/javascripts/pokerRoom2.js"></script>
+<script src="assets/javascripts/tutorial.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.intro-slider').slick({
+            dots: true,
+            speed:500,
+            fade: true,
+            cssEase: 'linear'
+    });
+    });
+</script>
+</html>

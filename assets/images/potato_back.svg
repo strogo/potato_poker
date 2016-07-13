@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="82.2px" height="130.39px" viewBox="0 0 82.2 130.39" enable-background="new 0 0 82.2 130.39"
+	 xml:space="preserve">
+<path fill="#EEBB8F" d="M81.752,120.391c0,4.644-3.764,8.409-8.408,8.409H9.143c-4.644,0-8.408-3.766-8.408-8.409V9.478
+	c0-4.645,3.765-8.409,8.408-8.409h64.201c4.645,0,8.408,3.765,8.408,8.409V120.391z"/>
+<g opacity="0.6">
+	<path fill="#CB7027" d="M40.515,41.503c0,0-3.436-4.065-9.135-6.748C25.671,32.067,30.734,38.841,40.515,41.503z"/>
+	<path fill="#CB7027" d="M16.954,48.87c0,0-3.436-4.065-9.135-6.748C2.11,39.435,7.172,46.208,16.954,48.87z"/>
+	<path fill="#CB7027" d="M34.424,91.483c0,0,3.305-0.029,5.928,1.825C42.979,95.166,38.093,95.198,34.424,91.483z"/>
+	<path fill="#CB7027" d="M39.056,119.816c0,0,2.418-0.026,4.338,1.67C45.316,123.186,41.741,123.216,39.056,119.816z"/>
+	<path fill="#CB7027" d="M16.743,67.528c0,0,2.665,0.824,5.501,2.636C25.084,71.979,20.71,71.158,16.743,67.528z"/>
+	<path fill="#CB7027" d="M40.515,70.103c0,0,2.356,0.203,12.36,6.186c4.746,2.838,2.305,3.984,0.482,2.814
+		C49.857,76.853,47.883,76.411,40.515,70.103z"/>
+	<path fill="#CB7027" d="M49.631,109.303c0,0,12.836,5.547,23.039,11.179c4.842,2.673,2.441,3.903,0.58,2.797
+		C69.676,121.15,57.211,115.354,49.631,109.303z"/>
+	<path fill="#CB7027" d="M76.904,22.083c0,0-1.57-2.461-13.838-9.989c-5.82-3.571-5.678-0.243-3.355,1.081
+		C64.174,15.718,65.787,17.628,76.904,22.083z"/>
+	
+		<ellipse transform="matrix(0.8726 0.4885 -0.4885 0.8726 30.3563 -20.419)" fill="#CB7027" cx="54.317" cy="47.978" rx="1.937" ry="1.125"/>
+	<ellipse transform="matrix(1 0.006 -0.006 1 0.3857 -0.4004)" fill="#CB7027" cx="66.398" cy="63.565" rx="0.969" ry="1.125"/>
+	
+		<ellipse transform="matrix(0.8726 0.4885 -0.4885 0.8726 8.2254 -6.6991)" fill="#CB7027" cx="16.954" cy="12.417" rx="1.937" ry="1.125"/>
+	
+		<ellipse transform="matrix(0.9347 0.3553 -0.3553 0.9347 23.5772 -10.1667)" fill="#CB7027" cx="39.466" cy="59.102" rx="1.937" ry="1.125"/>
+	
+		<ellipse transform="matrix(0.9347 0.3553 -0.3553 0.9347 33.5726 -2.3384)" fill="#CB7027" cx="23.152" cy="90.227" rx="1.937" ry="1.125"/>
+	
+		<ellipse transform="matrix(0.9347 0.3553 -0.3553 0.9347 42.6932 3.0502)" fill="#CB7027" cx="13.043" cy="117.75" rx="1.937" ry="1.125"/>
+	
+		<ellipse transform="matrix(0.9347 0.3555 -0.3555 0.9347 35.4818 -20.4808)" fill="#CB7027" cx="73.474" cy="86.313" rx="1.104" ry="0.663"/>
+	
+		<ellipse transform="matrix(0.9347 0.3555 -0.3555 0.9347 6.9917 -13.2181)" fill="#CB7027" cx="39.465" cy="12.417" rx="1.104" ry="0.663"/>
+</g>
+<ellipse transform="matrix(0.8583 0.5131 -0.5131 0.8583 21.2662 -22.1197)" opacity="0.6" fill="#CB7027" cx="50.687" cy="27.448" rx="1.157" ry="0.697"/>
+</svg>

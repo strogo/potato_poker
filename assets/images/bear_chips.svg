@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="68.03px" height="65.2px" viewBox="0 0 68.03 65.2" enable-background="new 0 0 68.03 65.2"
+	 xml:space="preserve">
+<g>
+	<circle fill="#D24334" cx="33.359" cy="32.388" r="27.959"/>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="33.133" cy="32.763" r="18.719"/>
+		<g>
+			<g>
+				<polyline fill="#FFFFFF" points="45.581,54.418 49.504,52.154 44.824,48.578 42.863,49.71 				"/>
+				<polyline fill="#FFFFFF" points="45.797,54.293 41.875,56.559 41.118,50.717 43.08,49.584 				"/>
+			</g>
+			<g>
+				<polyline fill="#FFFFFF" points="20.753,11.067 16.83,13.332 21.511,16.909 23.473,15.776 				"/>
+				<polyline fill="#FFFFFF" points="20.537,11.193 24.46,8.928 25.217,14.77 23.254,15.902 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polyline fill="#FFFFFF" points="57.826,32.811 57.826,28.279 52.39,30.547 52.389,32.811 				"/>
+				<polyline fill="#FFFFFF" points="57.826,32.559 57.826,37.09 52.39,34.824 52.39,32.559 				"/>
+			</g>
+			<g>
+				<polyline fill="#FFFFFF" points="7.852,32.871 7.853,37.403 13.289,35.139 13.289,32.872 				"/>
+				<polyline fill="#FFFFFF" points="7.852,33.125 7.852,28.593 13.289,30.859 13.289,33.124 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polyline fill="#FFFFFF" points="46.014,11.092 42.09,8.826 41.333,14.668 43.293,15.801 				"/>
+				<polyline fill="#FFFFFF" points="45.795,10.968 49.721,13.232 45.039,16.808 43.077,15.675 				"/>
+			</g>
+			<g>
+				<polyline fill="#FFFFFF" points="20.771,54.516 24.695,56.78 25.453,50.939 23.491,49.807 				"/>
+				<polyline fill="#FFFFFF" points="20.99,54.642 17.065,52.375 21.746,48.799 23.708,49.932 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<circle opacity="0.7" fill="#8A1002" cx="33.36" cy="32.389" r="14.616"/>
+	</g>
+	<rect x="23.096" y="25.885" fill="none" width="31.021" height="18.295"/>
+	<text transform="matrix(1 0 0 1 23.0957 38.083)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="17.1812">12</text>
+</g>
+</svg>
