@@ -30,7 +30,7 @@ imgArray[8] = new Image();
 imgArray[8].src = 'assets/images/tutorial9.png';
 
 
-var imagenumber1 = Math.floor(Math.random()*imgArray.length);
+var imagenumber1 = Math.floor(Math.random()*imgArray.length + 1);
 var RandomImage1 = imgArray[imagenumber1];
 
 RandomImage1.onload= function() {
@@ -48,7 +48,7 @@ function draw1() {
 
 
 
-var imagenumber2 = Math.floor(Math.random()*imgArray.length);
+var imagenumber2 = Math.floor(Math.random()*imgArray.length + 1);
 var RandomImage2 = imgArray[imagenumber2];
 
 RandomImage2.onload= function() {
