@@ -30,7 +30,8 @@ imgArray[8] = new Image();
 imgArray[8].src = 'assets/images/tutorial9.png';
 
 
-var imagenumber1 = Math.floor(Math.random()*imgArray.length + 1);
+var imagenumber1 = Math.floor(Math.random()*imgArray.length - 1);
+console.log("imageNumber1:" + imageNumber1);
 var RandomImage1 = imgArray[imagenumber1];
 
 RandomImage1.onload= function() {
@@ -48,7 +49,7 @@ function draw1() {
 
 
 
-var imagenumber2 = Math.floor(Math.random()*imgArray.length + 1);
+var imagenumber2 = Math.floor(Math.random()*imgArray.length - 1);
 var RandomImage2 = imgArray[imagenumber2];
 
 RandomImage2.onload= function() {
@@ -83,7 +84,7 @@ var text=document.getElementById("tutorialcanvas0");
 var ctx=text.getContext("2d");
 
 ctx.font="20px Georgia";
-ctx.fillText("- Wrong... You can practice more!",40,60);
+ctx.fillText("- Wrong... you can practice more!",40,60);
   
    }
    
