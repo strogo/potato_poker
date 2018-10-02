@@ -187,7 +187,7 @@ body a {
 
 
  #tutorialcanvascards1 { 
-	display: block;
+	display: inline;
     margin: 0 auto;
 	background-color:#3C9D5F;	
  }
@@ -199,7 +199,7 @@ body a {
 
 
 #tutorialcanvascards2 { 
-	display: block;
+	display: inline;
     margin: 0 auto;
 	background-color: #3C9D5F;
  }
@@ -211,7 +211,7 @@ body a {
 
 
 
-#tutorialcanvas0 { 
-	display: block;
-    margin: 0 auto;
+#tutorialcanvas0 {
+	display: inline;
+	margin: 0 auto;
  }
